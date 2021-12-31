@@ -6,6 +6,7 @@ public class Is_a_no_prime {
       Scanner scn = new Scanner(System.in);
       int t= scn.nextInt();
        // write ur code here
+       // No. of time you want to run this
       for( int i=0 ; i<t  ;i++  ) {
           int n= scn.nextInt();
           int count=0;
