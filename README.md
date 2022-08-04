@@ -8,4 +8,6 @@
 - Pythagorean Triplet
 - Rotate No
 - gcd and lcm of numbers
+
+
 Course followed :- https://nados.io/content/data-structures-and-algorithms
