@@ -5,10 +5,11 @@ public class Digits_of_no {
     public static void main(String[] args) {
   
       Scanner scn=new Scanner(System.in);
-      int n=scn.nextInt();
+      int n=scn.nextInt(); //enter no
 
       int count=0;
       int num=n;
+       // Counting no. of digits
       while(num!=0){
       num=num/10;
       count++;
