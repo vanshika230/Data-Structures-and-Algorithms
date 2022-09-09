@@ -59,3 +59,13 @@ public class Sum_of_two_arrays {
     
        
 
+/*
+ * Time Complexity:
+
+O(n) This time complexity is linear because for and while loops are used.
+
+
+SPACE COMPLEXITY:
+
+O(n) As a 1D array is used in the code, therefore space complexity is constant.
+ */

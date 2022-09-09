@@ -25,3 +25,13 @@ System.out.println(inv);
 
  }
 }
+/*
+ * Time Complexity:
+
+Since we are running a loop that reduces the number digit by digit, i.e. extracts one digit in each iteration, time complexity will be O(number of digits). Now, for a number N, the number of digits will be floor log N. Hence time complexity will turn out to be O(log10 N). Note: We add power * Math.pow(10, digit - 1) to our inverted variable at each step of the iteration. Calculating 10(digit-1) will take log(digit - 1) time, which is negligible as digits are less than 8, thus log(8-1) can be considered constant.
+
+
+Space Complexity:
+
+We are not using any data structure, hence it is taking constant space. Thus space complexity will be O(1). Note: You may think that we have used two integers inverted and power, which will take 4 or 8 bytes each (depending on the system architecture), hence we should write our space complexity as O(8) or O(16). But we generally ignore such constant space in Big - O complexity analysis.
+ */

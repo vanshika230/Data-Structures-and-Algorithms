@@ -47,3 +47,12 @@ public class anybase_to_anybase {
    }
   }
 
+/*
+ * TIME COMPLEXITY :
+ It will be logarithmic. O(log10(n) + log10(n)) = O(log10(n))
+
+
+SPACE COMPLEXITY :
+
+We just need to store a few variables like the answer, multiplier and remainder, hence O(1) auxiliary space is required.
+ */

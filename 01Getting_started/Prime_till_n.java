@@ -26,4 +26,17 @@ public class Prime_till_n {
             }
          }
         }
-
+/*
+ * Time Complexity:
+ * 
+ * O(t * square root n) 
+ * A for loop runs for t times= high-low and for each iteration a
+ * while loop runs for root n times making the time complexity of this program
+ * to be O(t * sq.rt(n)).
+ * 
+ * 
+ * Space Complexity:
+ * 
+ * O(1) Since no effective extra space has been used, therefore the time
+ * complexity of the program remains constant.
+ */

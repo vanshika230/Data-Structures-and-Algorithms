@@ -22,4 +22,13 @@ public class any_base_to_decimal_fnx {
        return dig; 
   }
    }
-  
+  /*
+   * TIME COMPLEXITY :
+
+We are extracting digits of number n and performing some minute calculations, which will take O(log10 n) time as there can be maximum floor(log10 n) digits in a number n.
+
+
+SPACE COMPLEXITY :
+
+Space Complexity - We just need to store a few variables like the answer, multiplier and remainder, hence O(1) auxiliary space is required.
+   */
