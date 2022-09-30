@@ -17,3 +17,8 @@ public class Prime_factorization {
 	}
 }
 
+/*
+ * Time Complexity: O(n^1/2)
+
+Auxiliary Space: O(1)
+ */

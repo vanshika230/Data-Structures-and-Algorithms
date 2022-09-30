@@ -29,3 +29,13 @@ public class Rotate_no {
   
    }
 
+/*
+ * Time Complexity:
+
+Getting the number of digits in n will take O(log10 n) time. Finding 10k and 10(nod - k) will take O(k) and O(nod - k) time respectively since k is of the order of the number of digits (after taking mod with nod), its time complexity will also be O(log10 n). Finding q and r are constant time-taking operations. Hence, the overall time complexity will be O(number of digits) = O(log10 n).
+
+
+Space Complexity:
+
+We are just using integer variables nod, multiplier, divisor, r, q, which will take constant {O(1)} space. 
+ */

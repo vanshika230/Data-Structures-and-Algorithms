@@ -32,7 +32,7 @@ public class Prime_till_n {
  * O(t * square root n) 
  * A for loop runs for t times= high-low and for each iteration a
  * while loop runs for root n times making the time complexity of this program
- * to be O(t * sq.rt(n)).
+ * to be O(t * sq.rt(n)). t times prime no ka test kar rahe hai 
  * 
  * 
  * Space Complexity:
