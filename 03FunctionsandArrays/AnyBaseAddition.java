@@ -48,9 +48,6 @@ For finding time complexity always try to look for loops (for loops, or while lo
 If n is a number then what is the length ( number of digits ) in that number? (log10 n)
 
 
-If you are not aware of why this is the case, please revisit the article Digits of a number.
-
-
 So, we can say the Big-O for this problem will be (log10(max(n1, n2) + 1), but we can ignore the 1 since it"s a constant. O(log10(max(n1, n2) + 1)
 
 
