@@ -7,16 +7,16 @@ public class Rotate_no {
      int k=scn.nextInt();
      int num=n;
      
-     int count=0;
+     int nod=0;
      while(num!=0)
      {
-       count++;
+       nod++;
        num=num/10;
      }
-     k=k%count;
+     k=k%nod;
      if(k<0)
      {
-       k=k+count;
+       k=k+nod;
      }
      int pow= (int)Math.pow(10,k);
      int new_pow=(int)Math.pow(10,count-k);
