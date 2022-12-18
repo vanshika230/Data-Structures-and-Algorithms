@@ -71,3 +71,4 @@ Space complexity: O(1)
 
 There is no data structure used, thus no auxiliary space is used. Hence, space complexity is O(1). 
 If the recursion call stack is taken into account, then space complexity will be O(log2 n) as there are k = (log2 n) recursive calls
+*/
