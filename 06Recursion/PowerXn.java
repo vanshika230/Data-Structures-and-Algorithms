@@ -42,4 +42,32 @@ However, if it is mentioned to give the space complexity which takes into
   n recursive calls, hence O(n) space will be required.
  */
 
- 
+ class Solution {
+    public double myPow(double x, int n) {
+        if(n==0){
+         return 1;
+     }
+        
+double pow=myPow(x, n/2);
+double powsq= pow*pow;
+        
+ if (n < 0) {
+ return (1 / x) * myPow(1 / x, -(n + 1));
+ }
+
+if(n%2!=0){
+    powsq= x*powsq;
+    
+}
+return powsq;
+    }
+}
+/*
+Time complexity: O(log2 n)
+
+Since you are recursively calling for a subproblem with n/2 from n, hence at max log2 (n) recursive calls will be made.
+You can also count the number of recursive calls in the call stack. So the time complexity turns out to be log2 (n) (which is independent of the value of x).
+Space complexity: O(1)
+
+There is no data structure used, thus no auxiliary space is used. Hence, space complexity is O(1). 
+If the recursion call stack is taken into account, then space complexity will be O(log2 n) as there are k = (log2 n) recursive calls
