@@ -34,3 +34,13 @@ public class First_Index_of_ele {
         return fisa;
     }
 }
+/* 
+Time Complexity :
+
+The time complexity of this solution is O(n) as we are traversing an array and searching for an element.
+
+
+SPACE COMPLEXITY :
+
+As you know from the previous questions, since we did not take any extra memory, the space complexity is O(1), but if we consider stack space then it is O(n).
+*/
