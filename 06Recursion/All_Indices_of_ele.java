@@ -41,3 +41,13 @@ public class All_Indices_of_ele {
   }
 
 }
+/* 
+Time Complexity:
+
+As n (array's length) calls are made and work is done corresponding to these n calls therefore the time complexity becomes O(n).
+
+
+Space Complexity:
+
+Since an array has been used to store all the indices which can be, therefore space complexity is constant, however you should know that if the recursion call stack is taken into account, then space complexity will be O(n) as there are n recursive calls.
+*/
